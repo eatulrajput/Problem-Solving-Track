@@ -5,7 +5,7 @@ class Solution {
       let row = "";
 
       //   Space
-      for (let j = 0; j < n - i + 1; j++) {
+      for (let j = 0; j < n - i - 1; j++) {
         row += " ";
       }
 
@@ -15,7 +15,7 @@ class Solution {
       }
 
       // Space
-      for (let j = 0; j < n - i + 1; j++) {
+      for (let j = 0; j < n - i - 1; j++) {
         row += " ";
       }
       console.log(row);

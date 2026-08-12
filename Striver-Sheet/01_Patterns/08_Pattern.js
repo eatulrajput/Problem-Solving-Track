@@ -5,12 +5,12 @@ class Solution {
       let row = "";
 
       //   Space
-      for (let j = 0; j <i + 1; j++) {
+      for (let j = 0; j < i; j++) {
         row += " ";
       }
 
       // Star
-      for (let j = 0; j < 2 * n - (2*i + 1); j++) {
+      for (let j = 0; j < 2 * n - (2 * i + 1); j++) {
         row += "*";
       }
 
